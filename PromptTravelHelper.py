@@ -1,3 +1,9 @@
+"""
+@author: mgfxer
+@title: FrameFX
+@nickname: FrameFX 💫
+@description: This extension provides various frame and mask sequence manipulation tools for animation workflows.
+"""
 # Prompt Travel Helper
 # Version: 2.2
 
