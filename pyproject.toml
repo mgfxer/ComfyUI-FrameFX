@@ -1,6 +1,6 @@
 [project]
 name = "comfyui-framefx"
-description = "Nodes:Live Prompt Interpolation, Prompt Stack Manager, Dynamic Animated Weights, Florence Prompt Travel Helper, Mask Sequence Helper, Prompt Travel Helper."
+description = "Nodes:Live Prompt Interpolation, Prompt Stack Manager, Dynamic Animated Weights, Florence Prompt Travel Helper, Mask Sequence Helper, Prompt Travel Helper. This extension provides various frame and mask sequence manipulation tools for animation workflows."
 version = "1.0.0"
 license = "LICENSE"
 
@@ -9,6 +9,6 @@ Repository = "https://github.com/mgfxer/ComfyUI-FrameFX"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "mgfxer"
 DisplayName = "ComfyUI-FrameFX"
-Icon = ""
+Icon = "💫"
