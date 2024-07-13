@@ -28,4 +28,4 @@ The Dynamic Animated Weights Helper is a versatile extension for animation workf
 ### Usage
 This node is designed to be integrated into animation workflows within the ComfyUI environment. The node can generate animations based on various types and apply a range of effects such as transitions, blurs, and edge enhancements.
 Below is an example of the output:
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/6FY96b2" data-context="false" ><a href="//imgur.com/a/6FY96b2"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![Imgur Image](http://i.imgur.com/a/6FY96b2.gif)
