@@ -83,10 +83,9 @@ The Florence Prompt Travel Helper node assists in transforming a stream of Flore
 The EdgeFX Source Images node extends the functionality of the Mask Sequence Helper by adding push and retract features. This node allows for more dynamic control over the animation sequence, enabling users to adjust the hold lengths for specific frames to create smoother transitions and effects.
 
 ## Features
-- **Generate Mask Sequences:** Create detailed mask sequences with customizable hold and transition lengths.
+- **Generate Edge FX Image Sequences:** Create detailed mask sequences with customizable hold and transition lengths.
 - **Timeline Generation:** Produce two separate timelines of repeated images, useful for comparison or alternating effects.
 - **Padding Frames:** Add padding frames to ensure smooth transitions.
-- **Text Outputs for Masks:** Generate text outputs defining mask transitions, useful for precise animation control.
 - **Push and Retract Features:** Adjust the hold length for the first cycle of images to create dynamic effects:
   - **Push:** Increase the hold length for the first frame, useful for extending the visibility of the initial image.
   - **Retract:** Decrease the hold length for the first frame, useful for shortening the visibility of the initial image.
