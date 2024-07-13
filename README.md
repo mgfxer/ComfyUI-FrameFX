@@ -1,6 +1,6 @@
 ## Dynamic Animated Weights Helper
 
-Many of my nodes work in a lockstep ecosystem of using Hold Frames + Transition Length + End Padding Frames. This works across Plain Text, Blip and Florence caption prompt travel, transition creation, slideshow creation, QR Mask Mode. 
+Outputs operate on the common princple of many of my nodes: Hold Frames + Transition Length + End Padding Frames. These values specify the length of the animation to be created.
 
 My Dream Zoom workflow also interpolates live prompts on the concept of hold and transition frames.
 
