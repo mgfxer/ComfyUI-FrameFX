@@ -89,7 +89,7 @@ The Florence Prompt Travel Helper node assists in transforming a stream of Flore
 - `formatted_prompts`: A single string containing the formatted sequence of prompts.
 
 # EdgeFX Source Images
-<img src="https://github.com/user-attachments/assets/2509b268-a811-49b4-a00f-9e41bcfe93d1" style="max-width: 300px; height: auto;">
+<img src="https://github.com/user-attachments/assets/2509b268-a811-49b4-a00f-9e41bcfe93d1" style="width: 100px; height: auto;">
 
 ## Description
 The EdgeFX Source Images node extends the functionality of the Mask Sequence Helper by adding push and retract features. This node allows for more dynamic control over the timing of the Edge FX animation sequence, enabling users to adjust the timeline by either pushing it forward in time or pulling it back in time, allowing you to resync the effect across the transition timeline. This is primarily useful for the 'lower ram' ipadapter option within the worflow, it's aimed at helping users with lower ram cards, who can barely run EFX. Otherwise the 2 Ipadapter solution should be used, and these push retract features are usually never needed.
