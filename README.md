@@ -1,6 +1,7 @@
 ## Dynamic Animated Weights
-<img src="https://github.com/user-attachments/assets/2c571c21-5666-4d44-a71c-ca5bca106d03" style="max-width: 100%; height: auto;">
-<img src="https://github.com/user-attachments/assets/68f96e4a-cd8f-4735-92f1-f75a1a5994a0" style="max-width: 100%; height: auto;">
+<img src="https://github.com/user-attachments/assets/2c571c21-5666-4d44-a71c-ca5bca106d03" style="width: 700px; height: auto;">
+<br>
+<img src="https://github.com/user-attachments/assets/68f96e4a-cd8f-4735-92f1-f75a1a5994a0" style="width: 700px; height: auto;">
 
 Outputs operate on the principle Hold Frames + Transition Length + End Padding Frames. These values specify the length of the animation to be created.
 Many of my nodes use these concepts and work in lockstep.
@@ -33,9 +34,6 @@ The user can choose up to 12 separate transition animations, and these are used 
 - `edge_fx_fade_balance`: Balance for edge fade effects.
 - `venetian_bars`: Number of bars for Venetian blinds animation.
 
-### Usage
-This node is designed to be integrated into animation workflows within the ComfyUI environment. The node can generate animations based on various types and apply a range of effects such as transitions, blurs, and edge enhancements.
-
 ## Mask Sequence Helper
 <img src="https://github.com/user-attachments/assets/ddb14de4-0539-4b81-a2f2-dcd270a543b0" style="width: 350px; height: auto;">
 
@@ -64,8 +62,6 @@ The Prompt Travel Helper node assists in transforming a stream of BLIP (Bootstra
 ## Return Values
 - `formatted_prompts`: A single string containing the formatted sequence of prompts.
 
-## Usage
-This node is designed to be integrated into animation workflows within the ComfyUI environment. It processes a stream of BLIP captions and generates a formatted sequence of prompts based on the specified hold, transition, and padding lengths.
 
 # Florence Prompt Travel Helper
 <img src="https://github.com/user-attachments/assets/122f8ea2-bf95-46c8-b6e3-f59fa7f1ed75" style="width: 350px; height: auto;">
@@ -127,8 +123,8 @@ The EdgeFX Source Images node extends the functionality of the Mask Sequence Hel
 ## Prompt Stack Manager
 The Prompt Stack Manager node is designed for the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It manages a stack of prompts provided in a multiline text box and cycles through them based on the frame count derived from a seed input. This node outputs the current and previous prompts, facilitating live prompt interpolation and seamless transitions between different prompts during animation workflows.
 This node was designed to work as a sister node for the following node:
-## Attack Hold Weighted Prompt, 
-Atomic Perception created as a collaboration effort for the Dream-zoom workflow on discord. Props to atom.p for inspiring me to get started on custom node creation. His effort on this node led to creating my own nodes.
+## Attack Hold Weighted Prompt, (not inside this repo)
+Atomic Perception created as a collaboration effort for the Dream-zoom workflow on discord. Props to atom.p for inspiring me to get started on custom node creation. His effort on this node led to creating my own nodes. This node below is referenced here because it's part of the Dream-Zoom workflow.
 
 <img src="https://github.com/user-attachments/assets/9560da78-2b22-4b2d-a5e9-7a613686ed57" style="width: 350px; height: auto;">
 
@@ -136,6 +132,7 @@ That node can be found here:
 https://github.com/AtomicPerception/ap_Nodes/tree/main
 
 ## Live Prompt Interpolation
-The Live Prompt Interpolation node is also part of the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It enables live interpolation of prompts on the fly, allowing for dynamic and smooth transitions between prompts. This node takes a single prompt and interpolates from the previously typed prompt over a specified number of frames, It has nice trigger functions that make sure the prompt is only registered after a specified number of frames and characters difference, ensuring that prompt changes are handled in real-time, yet not too soon, providing a fluid animation experience.
+The Live Prompt Interpolation node is also part of the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It enables live interpolation of prompts on the fly, allowing for dynamic and smooth transitions between prompts. This node takes a single prompt and interpolates from the previously typed prompt over a specified number of frames, It has trigger functions that make sure the prompt is only registered after a specified number of frames and characters difference, ensuring that prompt changes are handled in real-time, yet not too soon, providing a fluid animation experience.
 
-All of my nodes were created with AI assistance from Chat GPT and Claude.
+`*All of my nodes were created with AI assistance from Chat GPT and Claude.`
+
