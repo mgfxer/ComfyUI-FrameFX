@@ -1,5 +1,6 @@
 ## Dynamic Animated Weights
 ![image](https://github.com/user-attachments/assets/517af16d-40a0-4319-aedc-5d1aebb8cf59)
+
 Outputs operate on the princple Hold Frames + Transition Length + End Padding Frames. These values specify the length of the animation to be created.
 Many of my nodes use these concepts and work in lockstep.
 
