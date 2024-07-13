@@ -2,8 +2,6 @@
 
 Outputs operate on the common princple of many of my nodes: Hold Frames + Transition Length + End Padding Frames. These values specify the length of the animation to be created.
 
-My Dream Zoom workflow also interpolates live prompts on the concept of hold and transition frames.
-
 ### Description
 The Dynamic Animated Weights Helper is a versatile extension for animation workflows, providing various frame and mask sequence manipulation tools. This node facilitates the creation of complex animation effects with ease and flexibility.
 
