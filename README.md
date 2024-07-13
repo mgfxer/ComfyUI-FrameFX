@@ -128,7 +128,8 @@ Atomic Perception created as a collaboration effort for the Dream-zoom workflow 
 
 That node can be found here:
 https://github.com/AtomicPerception/ap_Nodes/tree/main
+
 ## Live Prompt Interpolation
 The Live Prompt Interpolation node is also part of the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It enables live interpolation of prompts on the fly, allowing for dynamic and smooth transitions between prompts. This node takes a single prompt and interpolates from the previously typed prompt over a specified number of frames, It has nice trigger functions that make sure the prompt is only registered after a specified number of frames and characters difference, ensuring that prompt changes are handled in real-time, yet not too soon,providing a fluid animation experience.
 
- ## All of these nodes were created using artificial intelligence, either Chat GPT or Claude.
+All of my nodes creations were AI assisted with the help of Chat GPT and Claude.
