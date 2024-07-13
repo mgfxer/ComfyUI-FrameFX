@@ -6,6 +6,7 @@ Many of my nodes use these concepts and work in lockstep.
 
 ### Description
 The Dynamic Animated Weights Helper is a versatile extension for animation workflows, providing various frame and mask sequence manipulation tools. This node facilitates the creation of complex animation effects with ease and flexibility.
+The user can choose up to 12 separate transition animations, and these are used as a list order of sorts. If only 4 transitions are needed the first 4 will be used, if more than 12 are needed, the list of transitions will repeat in a loop in the order listed. 
 
 ### Features
 - Supports multiple animation types including directional and diagonal transitions, circle growth/shrink, fades, square spins, and venetian blinds.
