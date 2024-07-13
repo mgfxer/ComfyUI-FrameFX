@@ -34,9 +34,6 @@ The user can choose up to 12 separate transition animations, and these are used 
 - `edge_fx_fade_balance`: Balance for edge fade effects.
 - `venetian_bars`: Number of bars for Venetian blinds animation.
 
-### Usage
-This node is designed to be integrated into animation workflows within the ComfyUI environment. The node can generate animations based on various types and apply a range of effects such as transitions, blurs, and edge enhancements.
-
 ## Mask Sequence Helper
 <img src="https://github.com/user-attachments/assets/ddb14de4-0539-4b81-a2f2-dcd270a543b0" style="width: 350px; height: auto;">
 
