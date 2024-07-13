@@ -123,6 +123,7 @@ The Prompt Stack Manager node is designed for the Dream Zoom Workflow with auto-
 This node was designed to work as a sister node for the 
 ## Attack Hold Weighted Prompt, Atomic Perception created as a collaboration effort on discord. 
 ![image](https://github.com/user-attachments/assets/9560da78-2b22-4b2d-a5e9-7a613686ed57)
+
 That node can be found here:
 https://github.com/AtomicPerception/ap_Nodes/tree/main
 ## Live Prompt Interpolation
