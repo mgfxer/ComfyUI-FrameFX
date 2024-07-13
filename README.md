@@ -39,6 +39,9 @@ The Mask Sequence Helper node provides an efficient way to generate mask sequenc
 
 # Prompt Travel Helper
 ![image](https://github.com/user-attachments/assets/2562572c-a3a5-41f2-b602-756fe3702587)
+
+![image](https://github.com/user-attachments/assets/4cf5521a-e463-447f-9c13-01104f5a425d)
+
 ## Description
 The Prompt Travel Helper node assists in transforming a stream of BLIP (Bootstrapped Language-Image Pre-training) captions into a prompt travel format. This node operates on the principles of hold, transition, and padding lengths to create a structured sequence of prompts for animation workflows.
 
@@ -113,8 +116,14 @@ The EdgeFX Source Images node extends the functionality of the Mask Sequence Hel
 - `total_frames`: Total number of frames generated, including padding.
 
 ## Dream Zoom Workflow
+![image](https://github.com/user-attachments/assets/9637c501-c6d4-4743-aec0-02917b568a98)
+
 ## Prompt Stack Manager
 The Prompt Stack Manager node is designed for the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It manages a stack of prompts provided in a multiline text box and cycles through them based on the frame count derived from a seed input. This node outputs the current and previous prompts, facilitating live prompt interpolation and seamless transitions between different prompts during animation workflows.
-
+This node was designed to work as a sister node for the 
+## Attack Hold Weighted Prompt, Atomic Perception created as a collaboration effort on discord. 
+![image](https://github.com/user-attachments/assets/9560da78-2b22-4b2d-a5e9-7a613686ed57)
+That node can be found here:
+https://github.com/AtomicPerception/ap_Nodes/tree/main
 ## Live Prompt Interpolation
 The Live Prompt Interpolation node is also part of the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It enables live interpolation of prompts on the fly, allowing for dynamic and smooth transitions between prompts. This node takes a single prompt and interpolates from the previously typed prompt over a specified number of frames, It has nice trigger functions that make sure the prompt is only registered after a specified number of frames and characters difference, ensuring that prompt changes are handled in real-time, yet not too soon,providing a fluid animation experience.
