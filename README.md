@@ -83,6 +83,7 @@ The Florence Prompt Travel Helper node assists in transforming a stream of Flore
 
 
 # EdgeFX Source Images
+![image](https://github.com/user-attachments/assets/2509b268-a811-49b4-a00f-9e41bcfe93d1)
 
 ## Description
 The EdgeFX Source Images node extends the functionality of the Mask Sequence Helper by adding push and retract features. This node allows for more dynamic control over the animation sequence, enabling users to adjust the hold lengths for specific frames to create smoother transitions and effects.
@@ -110,6 +111,8 @@ The EdgeFX Source Images node extends the functionality of the Mask Sequence Hel
 - `first_text_output`: Text output for the first mask sequence.
 - `second_text_output`: Text output for the second mask sequence.
 - `total_frames`: Total number of frames generated, including padding.
+
+## Dream Zoom Workflow
 ## Prompt Stack Manager
 The Prompt Stack Manager node is designed for the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It manages a stack of prompts provided in a multiline text box and cycles through them based on the frame count derived from a seed input. This node outputs the current and previous prompts, facilitating live prompt interpolation and seamless transitions between different prompts during animation workflows.
 
