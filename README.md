@@ -1,7 +1,7 @@
 
 ## Dynamic Animated Weights
 ![image](https://github.com/user-attachments/assets/3c3062f5-7a7a-42b5-95fd-25d377a11ec1)
-![20240712-0753](https://github.com/user-attachments/assets/d4de3dc9-6de4-478b-a548-3d62ec61f869)
+![20240712-0755](https://github.com/user-attachments/assets/68f96e4a-cd8f-4735-92f1-f75a1a5994a0)
 
 
 Outputs operate on the princple Hold Frames + Transition Length + End Padding Frames. These values specify the length of the animation to be created.
