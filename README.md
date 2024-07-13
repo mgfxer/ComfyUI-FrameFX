@@ -1,4 +1,5 @@
 ## Dynamic Animated Weights
+![image](https://github.com/user-attachments/assets/b43d2b9c-e0e7-4f97-ac04-28aa050dcd32)
 
 Outputs operate on the princple Hold Frames + Transition Length + End Padding Frames. These values specify the length of the animation to be created.
 Many of my nodes use these concepts and work in lockstep.
@@ -32,10 +33,12 @@ The Dynamic Animated Weights Helper is a versatile extension for animation workf
 This node is designed to be integrated into animation workflows within the ComfyUI environment. The node can generate animations based on various types and apply a range of effects such as transitions, blurs, and edge enhancements.
 
 ## Mask Sequence Helper
+![image](https://github.com/user-attachments/assets/ddb14de4-0539-4b81-a2f2-dcd270a543b0)
+
 The Mask Sequence Helper node provides an efficient way to generate mask sequence codes across two opposing timelines to form a slideshow effect that loops. The node also outputs your images to match the hold, transition and padding counts set. These two timelines are then either masked by the codes, or by animated weights output. This node makes it easy to manage frame transitions in animation workflows. Its customizable parameters allow for precise control over the timing and sequence of frames, making it a valuable tool for animation projects.
 
 # Prompt Travel Helper
-
+![image](https://github.com/user-attachments/assets/2562572c-a3a5-41f2-b602-756fe3702587)
 ## Description
 The Prompt Travel Helper node assists in transforming a stream of BLIP (Bootstrapped Language-Image Pre-training) captions into a prompt travel format. This node operates on the principles of hold, transition, and padding lengths to create a structured sequence of prompts for animation workflows.
 
@@ -58,6 +61,7 @@ The Prompt Travel Helper node assists in transforming a stream of BLIP (Bootstra
 This node is designed to be integrated into animation workflows within the ComfyUI environment. It processes a stream of BLIP captions and generates a formatted sequence of prompts based on the specified hold, transition, and padding lengths.
 
 # Florence Prompt Travel Helper
+![image](https://github.com/user-attachments/assets/122f8ea2-bf95-46c8-b6e3-f59fa7f1ed75)
 
 ## Description
 The Florence Prompt Travel Helper node assists in transforming a stream of Florence captions into a prompt travel format. This node operates on the principles of hold, transition, and padding lengths to create a structured sequence of prompts for animation workflows, similar to the BLIP Travel Helper but specifically designed for Florence captions.
