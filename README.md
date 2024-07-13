@@ -115,7 +115,8 @@ The EdgeFX Source Images node extends the functionality of the Mask Sequence Hel
 - `second_text_output`: Text output for the second mask sequence.
 - `total_frames`: Total number of frames generated, including padding.
 
-## Dream Zoom Workflow
+## Dream Zoom Workflow 
+(excerpt image only) The workflow file is in the workflows folder.
 ![image](https://github.com/user-attachments/assets/b4564dff-febb-46e0-bd03-574f373e3fa7)
 
 
