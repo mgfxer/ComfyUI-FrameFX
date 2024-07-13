@@ -1,10 +1,14 @@
 ## Dynamic Animated Weights Helper
 
+Many of my nodes work in a lockstep ecosystem of using Hold Frames + Transition Length + End Padding Frames. This works across Plain Text, Blip and Florence caption prompt travel, transition creation, slideshow creation, QR Mask Mode. 
+
+My Dream Zoom workflow also interpolates live prompts on the concept of hold and transition frames.
+
 ### Description
 The Dynamic Animated Weights Helper is a versatile extension for animation workflows, providing various frame and mask sequence manipulation tools. This node facilitates the creation of complex animation effects with ease and flexibility.
 
 ### Features
-- Supports multiple animation types including directional transitions, circle growth/shrink, fades, spins, and venetian blinds.
+- Supports multiple animation types including directional and diagonal transitions, circle growth/shrink, fades, square spins, and venetian blinds.
 - Includes options for easing, blur effects, and frame transitions.
 - Allows for generation modes like QR, Edge-FX, and combined outputs.
 - Random animation type selection with options to exclude specific types.
@@ -27,5 +31,4 @@ The Dynamic Animated Weights Helper is a versatile extension for animation workf
 
 ### Usage
 This node is designed to be integrated into animation workflows within the ComfyUI environment. The node can generate animations based on various types and apply a range of effects such as transitions, blurs, and edge enhancements.
-Below is an example of the output:
-![Imgur Image](http://i.imgur.com/a/6FY96b2.gif)
+
