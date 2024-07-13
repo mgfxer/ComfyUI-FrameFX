@@ -121,11 +121,14 @@ The EdgeFX Source Images node extends the functionality of the Mask Sequence Hel
 
 ## Prompt Stack Manager
 The Prompt Stack Manager node is designed for the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It manages a stack of prompts provided in a multiline text box and cycles through them based on the frame count derived from a seed input. This node outputs the current and previous prompts, facilitating live prompt interpolation and seamless transitions between different prompts during animation workflows.
-This node was designed to work as a sister node for the 
-## Attack Hold Weighted Prompt, Atomic Perception created as a collaboration effort on discord. 
+This node was designed to work as a sister node for the following node:
+## Attack Hold Weighted Prompt, 
+Atomic Perception created as a collaboration effort for the Dream-zoom workflow on discord. Props to atom.p for inspiring me to get started on custom node creation. His effort on this node led to my becoming a chat-gpt prompt engineer code jockey.
 ![image](https://github.com/user-attachments/assets/9560da78-2b22-4b2d-a5e9-7a613686ed57)
 
 That node can be found here:
 https://github.com/AtomicPerception/ap_Nodes/tree/main
 ## Live Prompt Interpolation
 The Live Prompt Interpolation node is also part of the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It enables live interpolation of prompts on the fly, allowing for dynamic and smooth transitions between prompts. This node takes a single prompt and interpolates from the previously typed prompt over a specified number of frames, It has nice trigger functions that make sure the prompt is only registered after a specified number of frames and characters difference, ensuring that prompt changes are handled in real-time, yet not too soon,providing a fluid animation experience.
+
+ ## All of these nodes were created using artificial intelligence, either Chat GPT or Claude.
