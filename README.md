@@ -68,7 +68,7 @@ The Prompt Travel Helper node assists in transforming a stream of BLIP (Bootstra
 This node is designed to be integrated into animation workflows within the ComfyUI environment. It processes a stream of BLIP captions and generates a formatted sequence of prompts based on the specified hold, transition, and padding lengths.
 
 # Florence Prompt Travel Helper
-<img src="https://github.com/user-attachments/assets/122f8ea2-bf95-46c8-b6e3-f59fa7f1ed75" style="max-width: 50%; height: auto;">
+<img src="https://github.com/user-attachments/assets/122f8ea2-bf95-46c8-b6e3-f59fa7f1ed75" style="max-width: 300px; height: auto;">
 
 ## Description
 The Florence Prompt Travel Helper node assists in transforming a stream of Florence captions into a prompt travel format. This node operates on the principles of hold, transition, and padding lengths to create a structured sequence of prompts for animation workflows, similar to the BLIP Travel Helper but specifically designed for Florence captions.
@@ -89,7 +89,7 @@ The Florence Prompt Travel Helper node assists in transforming a stream of Flore
 - `formatted_prompts`: A single string containing the formatted sequence of prompts.
 
 # EdgeFX Source Images
-<img src="https://github.com/user-attachments/assets/2509b268-a811-49b4-a00f-9e41bcfe93d1" style="max-width: 50%; height: auto;">
+<img src="https://github.com/user-attachments/assets/2509b268-a811-49b4-a00f-9e41bcfe93d1" style="max-width: 300px; height: auto;">
 
 ## Description
 The EdgeFX Source Images node extends the functionality of the Mask Sequence Helper by adding push and retract features. This node allows for more dynamic control over the timing of the Edge FX animation sequence, enabling users to adjust the timeline by either pushing it forward in time or pulling it back in time, allowing you to resync the effect across the transition timeline. This is primarily useful for the 'lower ram' ipadapter option within the worflow, it's aimed at helping users with lower ram cards, who can barely run EFX. Otherwise the 2 Ipadapter solution should be used, and these push retract features are usually never needed.
