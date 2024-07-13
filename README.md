@@ -65,8 +65,6 @@ The Prompt Travel Helper node assists in transforming a stream of BLIP (Bootstra
 ## Return Values
 - `formatted_prompts`: A single string containing the formatted sequence of prompts.
 
-## Usage
-This node is designed to be integrated into animation workflows within the ComfyUI environment. It processes a stream of BLIP captions and generates a formatted sequence of prompts based on the specified hold, transition, and padding lengths.
 
 # Florence Prompt Travel Helper
 <img src="https://github.com/user-attachments/assets/122f8ea2-bf95-46c8-b6e3-f59fa7f1ed75" style="width: 350px; height: auto;">
