@@ -122,7 +122,7 @@ The EdgeFX Source Images node extends the functionality of the Mask Sequence Hel
 (excerpt image only) The workflow file is in the workflows folder.
 <img src="https://github.com/user-attachments/assets/b4564dff-febb-46e0-bd03-574f373e3fa7" style="max-width: 100%; height: auto;">
 
-<img src="https://github.com/user-attachments/assets/a069efe1-dbfc-41a9-b448-91edd46c8c64" style="max-width: style="width: 450px; height: auto;">
+<img src="https://github.com/user-attachments/assets/a069efe1-dbfc-41a9-b448-91edd46c8c64" style="width: 450px; height: auto;">
 
 ## Prompt Stack Manager
 The Prompt Stack Manager node is designed for the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It manages a stack of prompts provided in a multiline text box and cycles through them based on the frame count derived from a seed input. This node outputs the current and previous prompts, facilitating live prompt interpolation and seamless transitions between different prompts during animation workflows.
