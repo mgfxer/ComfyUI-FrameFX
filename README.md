@@ -120,9 +120,20 @@ The EdgeFX Source Images node extends the functionality of the Mask Sequence Hel
 
 <img src="https://github.com/user-attachments/assets/a069efe1-dbfc-41a9-b448-91edd46c8c64" style="width: 650px; height: auto;">
 
+
+## Live Prompt Interpolation
+<img src="https://github.com/user-attachments/assets/37997ff6-666b-429a-b4b6-3fd090b35f88" style="width: 350px; height: auto;">
+
+The Live Prompt Interpolation node is part of the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It enables live interpolation of prompts on the fly, allowing for dynamic and smooth transitions between prompts. This node takes a single prompt and interpolates from the previously typed prompt over a specified number of frames, It has trigger functions that make sure the prompt is only registered after a specified number of frames and characters difference, ensuring that prompt changes are handled in real-time, yet not too soon, providing a fluid animation experience.
+
+
 ## Prompt Stack Manager
+![image](https://github.com/user-attachments/assets/d2912ad8-700b-46ab-b844-a94f2da3ae99)
+
 The Prompt Stack Manager node is designed for the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It manages a stack of prompts provided in a multiline text box and cycles through them based on the frame count derived from a seed input. This node outputs the current and previous prompts, facilitating live prompt interpolation and seamless transitions between different prompts during animation workflows.
 This node was designed to work as a sister node for the following node:
+
+
 ## Attack Hold Weighted Prompt, (not inside this repo)
 Atomic Perception created as a collaboration effort for the Dream-zoom workflow on discord. Props to atom.p for inspiring me to get started on custom node creation. His effort on this node led to creating my own nodes. This node below is referenced here because it's part of the Dream-Zoom workflow.
 
@@ -131,8 +142,8 @@ Atomic Perception created as a collaboration effort for the Dream-zoom workflow 
 That node can be found here:
 https://github.com/AtomicPerception/ap_Nodes/tree/main
 
-## Live Prompt Interpolation
-The Live Prompt Interpolation node is also part of the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It enables live interpolation of prompts on the fly, allowing for dynamic and smooth transitions between prompts. This node takes a single prompt and interpolates from the previously typed prompt over a specified number of frames, It has trigger functions that make sure the prompt is only registered after a specified number of frames and characters difference, ensuring that prompt changes are handled in real-time, yet not too soon, providing a fluid animation experience.
 
+
+---
 `*All of my nodes were created with AI assistance from Chat GPT and Claude.`
-
+---
