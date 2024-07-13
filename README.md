@@ -27,39 +27,5 @@ The Dynamic Animated Weights Helper is a versatile extension for animation workf
 
 ### Usage
 This node is designed to be integrated into animation workflows within the ComfyUI environment. The node can generate animations based on various types and apply a range of effects such as transitions, blurs, and edge enhancements.
-
-### Example
-Below is an example of how to use the Dynamic Animated Weights Helper node:
-
-```python
-# Initialize the node
-node = DynamicAnimatedWeightsHelper()
-
-# Define the input parameters
-input_params = {
-    "animation_type_1": "LeftToRight",
-    "animation_type_2": "TopDown",
-    "transition_easing": "ease_in_out",
-    "blur_easing": "false",
-    "frame_width": 512,
-    "frame_height": 512,
-    "hold_frames": 8,
-    "transition_frames": 20,
-    "padding_frames": 6,
-    "input_frames": 5,
-    "gaussian_blur_amount": 1.0,
-    "edge_fx_thickness": 2,
-    "push_fx": 5,
-    "retract_fx": 5,
-    "fx_cull_white_frames": 10.0,
-    "qr_greyness": 0.5,
-    "random_seed": 42,
-    "edgeFade_contrast": 1.5,
-    "edgeFade_blur": 2.0,
-    "generation_mode": "Generate All",
-    "edge_fx_fade_balance": 0.5,
-    "venetian_bars": 4
-}
-
-# Run the node with the input parameters
-outputs = node.run(**input_params)
+Below is an example of the output:
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/6FY96b2" data-context="false" ><a href="//imgur.com/a/6FY96b2"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
