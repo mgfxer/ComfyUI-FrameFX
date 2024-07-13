@@ -42,9 +42,9 @@ This node is designed to be integrated into animation workflows within the Comfy
 The Mask Sequence Helper node provides an efficient way to generate mask sequence codes across two opposing timelines to form a slideshow effect that loops. The node also outputs your images to match the hold, transition and padding counts set. These two timelines are then either masked by the codes, or by animated weights output. This node makes it easy to manage frame transitions in animation workflows. Its customizable parameters allow for precise control over the timing and sequence of frames, making it a valuable tool for animation projects.
 
 # Prompt Travel Helper
-<img src="https://github.com/user-attachments/assets/2562572c-a3a5-41f2-b602-756fe3702587" style="max-width: 100%; height: auto;">
+<img src="https://github.com/user-attachments/assets/2562572c-a3a5-41f2-b602-756fe3702587" style="width: 350px; height: auto;">
 
-<img src="https://github.com/user-attachments/assets/4cf5521a-e463-447f-9c13-01104f5a425d" style="max-width: 100%; height: auto;">
+<img src="https://github.com/user-attachments/assets/4cf5521a-e463-447f-9c13-01104f5a425d" style="width: 350px; height: auto;">
 
 ## Description
 The Prompt Travel Helper node assists in transforming a stream of BLIP (Bootstrapped Language-Image Pre-training) captions into a prompt travel format. This node operates on the principles of hold, transition, and padding lengths to create a structured sequence of prompts for animation workflows.
