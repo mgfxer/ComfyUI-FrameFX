@@ -132,7 +132,6 @@ The Live Prompt Interpolation node is also part of the Dream Zoom Workflow with 
 
 The Prompt Stack Manager node is designed for the Dream Zoom Workflow with auto-queue functionality in ComfyUI. It manages a stack of prompts provided in a multiline text box and cycles through them based on the frame count derived from a seed input. This node outputs the current and previous prompts, facilitating live prompt interpolation and seamless transitions between different prompts during animation workflows.
 This node was designed to work as a sister node for the following node:
-`*All of my nodes were created with AI assistance from Chat GPT and Claude.`
 
 
 ## Attack Hold Weighted Prompt, (not inside this repo)
@@ -143,3 +142,8 @@ Atomic Perception created as a collaboration effort for the Dream-zoom workflow 
 That node can be found here:
 https://github.com/AtomicPerception/ap_Nodes/tree/main
 
+
+
+---
+`*All of my nodes were created with AI assistance from Chat GPT and Claude.`
+---
