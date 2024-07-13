@@ -1,6 +1,6 @@
 
 ## Dynamic Animated Weights
-![image](https://github.com/user-attachments/assets/5ffb19a7-a990-4cdb-b19e-9c37cc40dc47)
+![image](https://github.com/user-attachments/assets/2c571c21-5666-4d44-a71c-ca5bca106d03)
 ![20240712-0755](https://github.com/user-attachments/assets/68f96e4a-cd8f-4735-92f1-f75a1a5994a0)
 
 
