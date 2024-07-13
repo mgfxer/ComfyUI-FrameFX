@@ -1,4 +1,4 @@
-## Dynamic Animated Weights Helper
+## Dynamic Animated Weights
 
 Outputs operate on the princple Hold Frames + Transition Length + End Padding Frames. These values specify the length of the animation to be created. (many of my nodes use these concepts and work in lockstep)
 
